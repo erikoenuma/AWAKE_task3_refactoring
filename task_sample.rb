@@ -11,8 +11,8 @@ def validate(point:)
           puts "1から5で入力してください"
           point = gets.to_i
         else
-        return point
-        break
+            return point
+            break
         end
     end
 end
